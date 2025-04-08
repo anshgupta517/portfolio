@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  cursor: url("./assets/cursor-default-outline.svg"), auto;
+}
+
+body {
+  color: rgb(255, 255, 255);
+  background-color: #19142a;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100vw;
+}
+
+.page {
+  width: 100vw;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 60%;
+  background: #fff;
+  text-align: center;
+  top: 0;
+  transform: translateY(-30px);
+}
+
+@media (max-width: 1024px) {
+  .side-element {
+    display: none;
+  }
+}
+
+.footer1 {
+  transform: translateY(-50px);
+}
