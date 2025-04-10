@@ -32,22 +32,16 @@ const footer = () => {
             crossOrigin="anonymous"
             referrerPolicy="no-referrer"
           />
-          <a
-            href="https://twitter.com/ansh27dev"
-            className="icon-button twitter"
-          >
-            <i className="fab fa-twitter"></i>
-            <span></span>
-          </a>
+          
 
           <a
-            href="https://www.linkedin.com/in/anshgupta7225"
+            href="https://www.linkedin.com/in/ansh-gupta-957a3635a"
             className="icon-button linkedin"
           >
             <i className="fab fa-linkedin"></i>
             <span></span>
           </a>
-          <a href="https://github.com/ansh27dev" className="icon-button github">
+          <a href="https://github.com/anshgupta517" className="icon-button github">
             <i className="fab fa-github"></i>
             <span></span>
           </a>
