@@ -1,6 +1,6 @@
-import library from "../assets/project_img/homepage.png";
-import food from "../assets/project_img/foodpage.png";
-import VideoCall from "../assets/project_img/videoCall.png";
+import IDE from "../assets/project_img/pr1.png";
+import VideoCall from "../assets/project_img/pr2.png";
+import Pr3 from "../assets/project_img/pr3.png";
 import Icon from "@mdi/react";
 import { mdiDotsVertical } from "@mdi/js";
 import "./css/second.css";
@@ -13,17 +13,22 @@ const Second = () => {
         <div className="projects">
           <div className="pr p1">
             <div className="pleft pic">
-              <img src={library} alt="Community Library" />
+              <img src={IDE} alt="Cloud IDE" />
             </div>
             <div className="pright text">
-              A platform/portal that allows donating and pooling used books in
-              local community library, so that books need not to be
-              discarded/wasted and will be borrowed and used in meaningful way,
-              thereby fostering a vibrant and inclusive local community of
-              readers.
+              A lightweight open-source IDE viewable from web browsers. ☁️💻 It will feature essential coding functionalities, such as an editor, terminal, and file system, allowing code development at ease, all without the need for local installations.
+              <br />
+              <a
+                rel="noreferrer"
+                target="_blank"
+                className="cta-btn"
+                href="https://github.com/anshgupta517/cloud-ide.git"
+              >
+                Source Code
+              </a>
             </div>
           </div>
-          <span className="pr-name">Community Library</span>
+          <span className="pr-name">Cloud IDE</span>
 
           <Icon
             path={mdiDotsVertical}
@@ -37,16 +42,22 @@ const Second = () => {
 
           <div className="pr p2">
             <div className="pleft text">
-              A food distribution platform that allows restaurants to donate the
-              (to be wasted) food at the end of the day, to the needful ones for
-              its best utilisation.
+              A video calling app made with Reactjs and WebRTC. 
+              <br />
+              <a
+                rel="noreferrer"
+                target="_blank"
+                className="cta-btn"
+                href="https://github.com/anshgupta517/Video-calling-V2.git"
+              >
+                Source Code
+              </a>
             </div>
             <div className="pright pic">
-              <img src={food} alt="Food Distribution platform" />
+              <img src={VideoCall} alt="Video Calling App" />
             </div>
           </div>
-
-          <span className="pr-name">Food Distribution platform</span>
+          <span className="pr-name">Video Calling App</span>
 
           <Icon
             path={mdiDotsVertical}
@@ -60,14 +71,22 @@ const Second = () => {
 
           <div className="pr p3">
             <div className="pleft pic ">
-              <img src={VideoCall} alt="Video calling app" />
+              <img src={Pr3} alt="Flood Evacuation Route Optimisation Using Graph theory" />
             </div>
             <div className="pright text">
-              A video calling app that provides seamless video communication,
-              allowing you to connect with anyone, anywhere, at any time.
+              Web application to calculate shortest, safest evacuation routes during floods. ⚠️
+              <br />
+              <a
+                rel="noreferrer"
+                target="_blank"
+                className="cta-btn"
+                href="https://github.com/anshgupta517/flood-evacuation.git"
+              >
+                Source Code
+              </a>
             </div>
           </div>
-          <span className="pr-name">Video calling app</span>
+          <span className="pr-name">Flood Evacuation Route Optimisation Using Graph theory</span>
         </div>
 
         <div className="stack">
