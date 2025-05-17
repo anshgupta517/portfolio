@@ -49,3 +49,34 @@
 .nav-right-list li {
   margin-right: 20px;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .nav-left {
+    margin-bottom: 10px;
+    transform: translateY(15px);
+
+  }
+
+  .nav-right-list {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .nav-right-list li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

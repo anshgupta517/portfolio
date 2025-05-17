@@ -128,7 +128,7 @@ const First = () => {
           <div className="canvas-container">
             {loading ? (
               <div className="loading">
-                <h1>Loading...</h1>
+                <h1>3D Model Loading...</h1>
               </div>
             ) : (
               <Canvas

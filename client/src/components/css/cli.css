@@ -20,7 +20,8 @@
   align-items: center;
   flex-direction: column;
   height: 100%;
-  width: 40%;
+  width: 90%;
+  max-width: 800px;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -72,4 +73,23 @@
 .terminal-window .text {
   transform: translateY(-7px);
   color: #050000;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .terminal-window {
+    height: 70vh;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .topbar {
+    height: 15%;
+  }
+
+  .terminal {
+    padding: 10px;
+  }
 }

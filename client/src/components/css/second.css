@@ -42,12 +42,13 @@
 }
 .pic {
   width: 100%;
-  height: 250px;
+  height: auto;
   background-color: #d14343;
   border: 2px solid #ffffff;
   border-radius: 5%;
   overflow: hidden;
 }
+
 
 .pic img {
   width: 100%;
