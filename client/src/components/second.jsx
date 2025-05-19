@@ -29,7 +29,7 @@ const Second = () => {
             </div>
           </div>
           <span className="pr-name">Cloud IDE</span>
-
+<div>
           <Icon
             path={mdiDotsVertical}
             title="User Profile"
@@ -39,6 +39,7 @@ const Second = () => {
             color="white"
             className="dots-icon"
           />
+          </div>
 
           
 
@@ -60,9 +61,7 @@ const Second = () => {
             </div>
           </div>
           <span className="pr-name">Flood Evacuation Route Optimisation Using Graph theory</span>
-        </div>
-
-        <Icon
+          <Icon
             path={mdiDotsVertical}
             title="User Profile"
             size={3}
@@ -71,8 +70,14 @@ const Second = () => {
             color="white"
             className="dots-icon"
           />
+        </div>
+
+        
 
           <div className="pr p2">
+          <div className="pright pic">
+              <img src={VideoCall} alt="Video Calling App" />
+            </div>
             <div className="pleft text">
               A video calling app made with Reactjs and WebRTC. 
               <br />
@@ -85,11 +90,12 @@ const Second = () => {
                 Source Code
               </a>
             </div>
-            <div className="pright pic">
-              <img src={VideoCall} alt="Video Calling App" />
-            </div>
+            
           </div>
-          <span className="pr-name">Video Calling App</span>
+          <div className="space"></div>
+          <center>
+          <span  className="pr-name">Video Calling App</span>
+          </center>
 
          
 

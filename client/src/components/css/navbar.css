@@ -27,15 +27,23 @@
   color: #820000;
   z-index: 9999;
 }
+.navbar {
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out, scale 0.3s ease-out;
+}
 
 .navbar:hover,
 .navbar:focus {
-  transition: transform 0.3s, box-shadow 0.3s, scale 0.3s;
   transform: scale(1.1);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
 }
 
 .navbar:focus {
+  transform: scale(1);
+  box-shadow: none;
+}
+
+.navbar:not(:hover):not(:focus) {
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out, scale 0.3s ease-out;
   transform: scale(1);
   box-shadow: none;
 }
