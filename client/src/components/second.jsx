@@ -40,6 +40,38 @@ const Second = () => {
             className="dots-icon"
           />
 
+          
+
+<div className="pr p3">
+            <div className="pleft pic ">
+              <img src={Pr3} alt="Flood Evacuation Route Optimisation Using Graph theory" />
+            </div>
+            <div className="pright text">
+              Web application to calculate shortest, safest evacuation routes during floods. ⚠️
+              <br />
+              <a
+                rel="noreferrer"
+                target="_blank"
+                className="cta-btn"
+                href="https://github.com/anshgupta517/flood-evacuation.git"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+          <span className="pr-name">Flood Evacuation Route Optimisation Using Graph theory</span>
+        </div>
+
+        <Icon
+            path={mdiDotsVertical}
+            title="User Profile"
+            size={3}
+            horizontal
+            vertical
+            color="white"
+            className="dots-icon"
+          />
+
           <div className="pr p2">
             <div className="pleft text">
               A video calling app made with Reactjs and WebRTC. 
@@ -59,35 +91,9 @@ const Second = () => {
           </div>
           <span className="pr-name">Video Calling App</span>
 
-          <Icon
-            path={mdiDotsVertical}
-            title="User Profile"
-            size={3}
-            horizontal
-            vertical
-            color="white"
-            className="dots-icon"
-          />
+         
 
-          <div className="pr p3">
-            <div className="pleft pic ">
-              <img src={Pr3} alt="Flood Evacuation Route Optimisation Using Graph theory" />
-            </div>
-            <div className="pright text">
-              Web application to calculate shortest, safest evacuation routes during floods. ⚠️
-              <br />
-              <a
-                rel="noreferrer"
-                target="_blank"
-                className="cta-btn"
-                href="https://github.com/anshgupta517/flood-evacuation.git"
-              >
-                Source Code
-              </a>
-            </div>
-          </div>
-          <span className="pr-name">Flood Evacuation Route Optimisation Using Graph theory</span>
-        </div>
+          
 
         <div className="stack">
           <span>My Skills</span>
