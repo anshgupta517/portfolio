@@ -152,7 +152,8 @@
 }
 
 .cta-btn:hover {
-  background-color: #0056b3; /* Darker shade on hover */
+  background-color: #0056b3;
+  text-decoration: none; /* Darker shade on hover */
 }
 
 
