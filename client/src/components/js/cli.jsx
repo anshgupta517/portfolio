@@ -9,8 +9,8 @@ export const useCli = () => {
       help: "Available commands:  name, bio, skills, contact, clear",
       name: "Hi, I am Ansh Gupta.",
       bio: "I am a fullstack developer",
-      skills: "I am proficient MERN stack",
-      contact: "linkedin: https://www.linkedin.com/in/anshgupta7225",
+      skills: "I am proficient in python and MERN stack",
+      contact: "linkedin: @ansh-gupta-957a3635a",
     };
 
     const handleKeyDown = (event) => {
