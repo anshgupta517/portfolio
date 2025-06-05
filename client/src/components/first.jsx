@@ -129,6 +129,15 @@ const First = () => {
             {loading ? (
               <div className="loading">
                 <h1>3D Model Loading...</h1>
+                <div className="space"></div>
+<div class="spinner">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
               </div>
             ) : (
               <Canvas
@@ -151,7 +160,6 @@ const First = () => {
               {" "}
               <h2>
                 <a
-                  href=""
                   className="typewrite"
                   data-period="2000"
                   data-type='[ "Hi, I am Ansh.", "I am a Fullstack Developer.", "I Love to code.", "I Love to Develop." ]'
