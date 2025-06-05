@@ -131,14 +131,15 @@ const First = () => {
                 <h1>3D Model Loading...</h1>
                 <div className="space"></div>
 <div class="spinner">
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-</div>
-              </div>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>              </div>
             ) : (
               <Canvas
                 camera={{ position: [0, 50, 100], fov: 60 }}
